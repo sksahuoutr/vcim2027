@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>V-CIM 2027 | Publication & Indexing - VLSI, Communication & Intelligent Machine</title>
+    
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Main Stylesheet from css folder -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        /* Page-specific styles for Publication page */
+        .main-content {
+            max-width: 1280px;
+            margin: 160px auto 40px;
+            padding: 0 24px;
+        }
+
+        .hero-pub {
+            background: linear-gradient(135deg, #0a2f44 0%, #0e4d6e 100%);
+            color: white;
+            border-radius: 28px;
+            padding: 2.5rem;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .hero-pub h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .hero-pub i {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 2rem 0 1.2rem;
+            border-left: 5px solid #eab308;
+            padding-left: 18px;
+            color: #0a2f44;
+        }
+
+        .section-title:first-of-type {
+            margin-top: 0;
+        }
+
+        .pub-card {
+            background: white;
+            border-radius: 24px;
+            padding: 1.8rem;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.02), 0 1px 3px rgba(0,0,0,0.05);
+            border: 1px solid #eef2f8;
+            transition: transform 0.2s, box-shadow 0.2s;
+            height: 100%;
+        }
+
+        .pub-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+        }
+
+        .pub-icon {
+            font-size: 2.2rem;
+            color: #0e4d6e;
+            margin-bottom: 1rem;
+        }
+
+        .indexing-badge {
+            background: #eef4ff;
+            border-radius: 60px;
+            padding: 6px 14px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 500;
+            font-size: 0.85rem;
+            margin: 0.3rem;
+        }
+
+        .ethics-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .ethics-list li {
+            margin-bottom: 0.8rem;
+            padding-left: 1.8rem;
+            position: relative;
+        }
+
+        .ethics-list li i {
+            position: absolute;
+            left: 0;
+            top: 0.2rem;
+            color: #eab308;
+        }
+
+        .btn-pub {
+            background: #0e4d6e;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 40px;
+            font-weight: 600;
+            transition: 0.2s;
+            color: white;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .btn-pub:hover {
+            background: #1f7a9e;
+            transform: translateY(-2px);
+            color: white;
+        }
+
+        .journal-card {
+            background: #f8fafc;
+            border-radius: 20px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.2s;
+            border: 1px solid #e2edf7;
+            height: 100%;
+        }
+
+        .journal-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .journal-card i {
+            font-size: 2rem;
+            color: #eab308;
+        }
+
+        .mt-2 { margin-top: 0.5rem; }
+        .mt-3 { margin-top: 1rem; }
+        .mt-4 { margin-top: 1.5rem; }
+        .mb-3 { margin-bottom: 1rem; }
+        .me-2 { margin-right: 0.5rem; }
+        .small { font-size: 0.85rem; }
+        .text-muted { color: #6c757d; }
+        .text-center { text-align: center; }
+
+        @media (max-width: 820px) {
+            .main-content { margin-top: 140px; }
+            .hero-pub h1 { font-size: 1.6rem; }
+            .hero-pub { padding: 1.5rem; }
+            .section-title { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<button id="topBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+<div class="header">
+    <div class="top">
+        <div class="row">
+            <div class="logoes">
+                <img src="images/vcim.png" alt="V-CIM Logo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%23ffffff\'/%3E%3Cpath fill=\'%230a2f44\' d=\'M30 30 L70 30 L70 70 L30 70 Z\'/%3E%3Ctext x=\'50\' y=\'68\' font-size=\'28\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\'%3EVC%3C/text%3E%3C/svg%3E'">
+            </div>
+            <div class="site-info">
+                <div id="siteDescribe"><b>National Conference on VLSI, Communication & Intelligent Machine (V-CIM 2027)</b></div>
+                <div id="siteName">📍 7–9 January 2027 | Bhubaneswar, Odisha, India | Hybrid Mode</div>
+            </div>
+            <div class="logoer">
+                <img src="images/outr.png" alt="OUTR Logo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'%3E%3Crect width=\'100\' height=\'100\' fill=\'%23ffffff\'/%3E%3Ctext x=\'15\' y=\'68\' fill=\'%230a2f44\' font-size=\'18\'%3EOUTR%3C/text%3E%3C/svg%3E'">
+            </div>
+        </div>
+    </div>
+
+    <div class="nav">
+        <button class="menu-toggle" aria-label="Menu">☰</button>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="index.html">HOME</a></li><li class="nav-div"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2 20'%3E%3Crect width='1.5' height='20' fill='%23ccc'/%3E%3C/svg%3E" alt=""></li>
+            <li class="nav-item"><a href="callforpapers.html">CALL FOR PAPERS</a></li><li class="nav-div"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2 20'%3E%3Crect width='1.5' height='20' fill='%23ccc'/%3E%3C/svg%3E" alt=""></li>
+            <li class="nav-item"><a href="submission.html">SUBMISSION</a></li><li class="nav-div"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2 20'%3E%3Crect width='1.5' height='20' fill='%23ccc'/%3E%3C/svg%3E" alt=""></li>
+            <li class="nav-item"><a href="committee.html">COMMITTEES</a></li><li class="nav-div"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2 20'%3E%3Crect width='1.5' height='20' fill='%23ccc'/%3E%3C/svg%3E" alt=""></li>
+            <li class="nav-item"><a href="registration.html">REGISTRATION</a></li><li class="nav-div"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2 20'%3E%3Crect width='1.5' height='20' fill='%23ccc'/%3E%3C/svg%3E" alt=""></li>
+            <li class="nav-item"><a href="venue.html">VENUE & TRAVEL</a></li><li class="nav-div"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2 20'%3E%3Crect width='1.5' height='20' fill='%23ccc'/%3E%3C/svg%3E" alt=""></li>
+            <li class="nav-item"><a href="publication.html" class="active">PUBLICATION</a></li><li class="nav-div"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2 20'%3E%3Crect width='1.5' height='20' fill='%23ccc'/%3E%3C/svg%3E" alt=""></li>
+            <li class="nav-item"><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+</div>
+
+<main class="main-content">
+    <!-- Hero Section -->
+    <div class="hero-pub">
+        <i class="fas fa-book-open"></i>
+        <h1>Publication & Indexing</h1>
+        <p style="font-size: 1.05rem;">High-quality proceedings, DOI registration, and global indexing avenues for V-CIM 2027</p>
+    </div>
+
+    <!-- Publication at a glance (two column) -->
+    <div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 40px;">
+        <div style="flex: 1; min-width: 280px;">
+            <div class="pub-card">
+                <div class="pub-icon"><i class="fas fa-file-alt"></i></div>
+                <h3>Conference Proceedings</h3>
+                <p>All accepted and presented papers will be published in the conference proceedings with an <strong>International Standard Book Number (ISBN)</strong> and registered with <strong>Crossref</strong> for DOI assignment. The proceedings will be submitted to leading digital libraries.</p>
+                <ul class="ethics-list mt-3">
+                    <li><i class="fas fa-check-circle"></i> ISBN: 978-81-969109-3-4 (V-CIM 2027)</li>
+                    <li><i class="fas fa-check-circle"></i> Each paper receives unique Crossref DOI</li>
+                    <li><i class="fas fa-check-circle"></i> Soft copy proceedings accessible online</li>
+                    <li><i class="fas fa-check-circle"></i> Complimentary e-copy for registered authors</li>
+                </ul>
+            </div>
+        </div>
+        <div style="flex: 1; min-width: 280px;">
+            <div class="pub-card">
+                <div class="pub-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Indexing & Abstracting</h3>
+                <p>The V-CIM proceedings will be submitted to major citation databases. Extended versions of selected papers will be recommended to reputed journals.</p>
+                <div class="mt-3" style="display: flex; flex-wrap: wrap;">
+                    <span class="indexing-badge"><i class="fab fa-google"></i> Google Scholar</span>
+                    <span class="indexing-badge"><i class="fas fa-search"></i> Scopus (evaluation)</span>
+                    <span class="indexing-badge"><i class="fas fa-globe"></i> Web of Science (CPCI)</span>
+                    <span class="indexing-badge"><i class="fas fa-database"></i> Crossref / DOI</span>
+                    <span class="indexing-badge"><i class="fas fa-university"></i> UGC Care Listed</span>
+                </div>
+                <p class="mt-3 small text-muted"><i class="fas fa-info-circle"></i> Indexing depends on publisher policies; Springer/Scopus may apply for selected extended papers.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Post-Conference Publication Opportunities -->
+    <h2 class="section-title"><i class="fas fa-newspaper me-2"></i> Post-Conference Publication Opportunities</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 24px; margin-bottom: 40px;">
+        <div style="flex: 1; min-width: 240px;">
+            <div class="journal-card">
+                <i class="fas fa-microchip"></i>
+                <h4 class="mt-2">Journal of VLSI & Intelligent Systems</h4>
+                <p>(Springer – Scopus indexed)</p>
+                <small>Extended versions of top VLSI & AI papers invited</small>
+            </div>
+        </div>
+        <div style="flex: 1; min-width: 240px;">
+            <div class="journal-card">
+                <i class="fas fa-wifi"></i>
+                <h4 class="mt-2">Int. Journal of Communication Systems</h4>
+                <p>(Wiley – SCI Expanded)</p>
+                <small>Focus on 6G, intelligent communication, antenna</small>
+            </div>
+        </div>
+        <div style="flex: 1; min-width: 240px;">
+            <div class="journal-card">
+                <i class="fas fa-brain"></i>
+                <h4 class="mt-2">Journal of Intelligent & Fuzzy Systems</h4>
+                <p>(IOS Press – Scopus, SCIE)</p>
+                <small>AI/ML, intelligent machines, signal processing</small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Submission & Ethics Section -->
+    <div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 40px;">
+        <div style="flex: 1; min-width: 280px;">
+            <div class="pub-card">
+                <h4><i class="fas fa-gavel" style="color:#0e4d6e;"></i> Publication Ethics & Plagiarism Policy</h4>
+                <p>V-CIM follows <strong>Committee on Publication Ethics (COPE)</strong> guidelines. All submissions undergo similarity check via iThenticate. Plagiarism above 15% (excluding references) leads to immediate rejection.</p>
+                <ul class="ethics-list">
+                    <li><i class="fas fa-ban"></i> No simultaneous submissions</li>
+                    <li><i class="fas fa-user-check"></i> Mandatory author declaration form</li>
+                    <li><i class="fas fa-eye"></i> Double-blind peer review</li>
+                </ul>
+            </div>
+        </div>
+        <div style="flex: 1; min-width: 280px;">
+            <div class="pub-card">
+                <h4><i class="fas fa-file-signature" style="color:#0e4d6e;"></i> Important for Authors</h4>
+                <ul class="ethics-list">
+                    <li><i class="fas fa-check"></i> At least one author must register and present (in-person/virtual)</li>
+                    <li><i class="fas fa-check"></i> Final camera-ready paper must incorporate review comments</li>
+                    <li><i class="fas fa-check"></i> Copyright transfer agreement is mandatory</li>
+                    <li><i class="fas fa-check"></i> Proceedings published <strong>within 8 weeks</strong> after conference</li>
+                </ul>
+                <a href="#" class="btn-pub mt-2"><i class="fas fa-download"></i> Download Copyright Form</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Open Access Note -->
+    <div style="margin-bottom: 30px; padding: 20px; background: #fff8e7; border-radius: 24px; border-left: 4px solid #eab308;">
+        <div style="display: flex; gap: 15px; align-items: flex-start;">
+            <i class="fas fa-exclamation-triangle fa-2x" style="color: #eab308;"></i>
+            <div>
+                <strong>Open Access & Self-archiving:</strong> Authors are permitted to post the accepted version (post-print) on institutional repositories after 12 months embargo. All proceedings papers receive a Crossref DOI making them citable and discoverable.
+            </div>
+        </div>
+    </div>
+
+    <!-- Collaborations -->
+    <div class="pub-card text-center" style="background: #f8fafc; margin-bottom: 30px;">
+        <h4><i class="fas fa-handshake"></i> In Collaboration With</h4>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 20px;">
+            <div><strong style="font-size: 1.2rem;">Springer</strong></div>
+            <div><strong style="font-size: 1.2rem;">Scopus</strong></div>
+            <div><strong style="font-size: 1.2rem;">Crossref</strong></div>
+            <div><strong style="font-size: 1.2rem;">IEEE (Technical Partner)</strong></div>
+        </div>
+        <p class="mt-3"><i class="fas fa-certificate"></i> Conference Partner: Soft Computing Research Society (SCRS) | Technical Sponsor: OUTR Bhubaneswar</p>
+    </div>
+
+    <!-- Contact -->
+    <div style="padding: 15px; background: #f1f5f9; border-radius: 20px; font-size: 0.9rem; text-align: center;">
+        <i class="fas fa-envelope"></i> For publication queries: vcim2027@outr.ac.in | Phone: +91-674-2381234 ext. 456
+    </div>
+</main>
+
+<!-- Integrated Footer Content - Moved to right sidebar area similar to home page -->
+<div class="main" style="margin-top: 0; padding-top: 0;">
+    <div class="right" style="margin-top: 0;">
+        <!-- About the Conference Box -->
+        <div class="right-box">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sticky Social Icons (consistent with home page) -->
+<div class="whatsapp-icon"><a href="#" aria-label="WhatsApp"><img src="images/whatsapp-icon.png" alt="WhatsApp" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg'"></a></div>
+<div class="telegram-icon"><a href="#" aria-label="Telegram"><img src="images/telegram-icon.png" alt="Telegram" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg'"></a></div>
+<div class="line-icon"><a href="#" aria-label="Line"><img src="images/line-icon.png" alt="Line" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/4/41/LINE_logo.svg'"></a></div>
+
+<!-- External JavaScript from js folder -->
+<script src="js/script.js"></script>
+
+<!-- Page-specific initialization for top button -->
+<script>
+    (function() {
+        const topBtn = document.getElementById('topBtn');
+        if (topBtn && !window._topBtnInitialized) {
+            window._topBtnInitialized = true;
+            if (!topBtn.hasAttribute('data-listener')) {
+                topBtn.setAttribute('data-listener', 'true');
+                topBtn.addEventListener('click', function() {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            }
+        }
+    })();
+</script>
+</body>
+</html>
